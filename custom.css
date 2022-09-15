@@ -1,0 +1,18 @@
+html,
+body {
+  height: 100%;
+}
+
+#main-container {
+  background-color: #a0aecd;
+  height: 100%;
+}
+
+.done {
+  background: #51df70 !important;
+  color: #00891e;
+}
+
+.delete {
+  display: none !important;
+}

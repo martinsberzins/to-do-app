@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MB TO-DO App</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- custom css -->
+    <link href="custom.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container" id="main-container">
+      <div class="row">
+        <div class="d-flex justify-content-center">
+          <h1>MB TO-DO APP</h1>
+        </div>
+        <div class="d-flex justify-content-center">
+          <h3>Ievadi dienas uzdevumus un atzīmē to izpildi</h3>
+        </div>
+        <div class="d-flex justify-content-center">
+          <p class="mb-0">Uzspied uz uzdevuma, lai atzīmetu izpildi</p>
+        </div>
+        <div class="d-flex justify-content-center">
+          <p class="mb-1">
+            Uzspied <i class="bi bi-trash"></i>, lai izdzēstu uzdevumu
+          </p>
+        </div>
+        <div class="d-flex justify-content-center">
+          <p class="mb-1">
+            Uzspied <i class="bi bi-pen"></i>, lai labotu uzdevumu
+          </p>
+        </div>
+      </div>
+      <!-- input form -->
+      <div class="d-flex justify-content-center">
+        <div class="col-12 col-lg-5">
+          <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">
+              <i class="bi bi-check2-square"></i>
+            </span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Uzdevums"
+              aria-label="Uzdevums"
+              aria-describedby="basic-addon1"
+              id="userInput"
+            />
+            <button type="button" class="btn btn-primary" id="enter">
+              <i class="bi bi-save"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="col-12 col-lg-5">
+          <ul class="list-group mt-2"></ul>
+        </div>
+      </div>
+      <!-- end container` -->
+    </div>
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
